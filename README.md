@@ -1,3 +1,6 @@
+![image](https://github.com/RafaelaNasciment/StandardProject/assets/101521570/a67163ce-3c56-4c83-af86-ec12f84835ca)
+
+
 Arquitetura em camadas ou arquitetura em camadas limpas (Clean Architecture)
 
 Apresentacao 
