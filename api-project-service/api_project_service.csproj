@@ -2,14 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
-    <RootNamespace>api_project_domain</RootNamespace>
+    <RootNamespace>api_project_service</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Entidades\" />
-    <Folder Include="Enum\" />
+    <Folder Include="Services\ProductService\" />
   </ItemGroup>
 
 </Project>

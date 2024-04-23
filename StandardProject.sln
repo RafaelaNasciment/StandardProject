@@ -13,19 +13,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Repository", "4 - Repos
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Infrastructure", "5 - Infrastructure", "{72433D3D-AD8B-4004-8932-4B62491F332A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-project-presentation", "Presentation\api-project-presentation.csproj", "{54BC7AD6-72A6-4BD4-8513-9E2DB2B61541}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_project_presentation", "Presentation\api_project_presentation.csproj", "{54BC7AD6-72A6-4BD4-8513-9E2DB2B61541}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-project-domain", "api-project-domain\api-project-domain.csproj", "{ECE69255-D4A2-4174-B9DC-9E7EE1FCC95A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_project_domain", "api-project-domain\api_project_domain.csproj", "{ECE69255-D4A2-4174-B9DC-9E7EE1FCC95A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-project-service", "api-project-service\api-project-service.csproj", "{C421DDFF-AF76-4EE2-899D-93394E0007D7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_project_service", "api-project-service\api_project_service.csproj", "{C421DDFF-AF76-4EE2-899D-93394E0007D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-project-repository", "api-project-repository\api-project-repository.csproj", "{CBF03C41-6D42-495E-B345-57E354F43AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_project_repository", "api-project-repository\api_project_repository.csproj", "{CBF03C41-6D42-495E-B345-57E354F43AF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-project-infrastructure", "api-project-infrastructure\api-project-infrastructure.csproj", "{3EC1FF29-210C-4CCB-9CCB-7200E451566C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_project_infrastructure", "api-project-infrastructure\api_project_infrastructure.csproj", "{3EC1FF29-210C-4CCB-9CCB-7200E451566C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Testes", "6 - Testes", "{D2B429EB-30F5-4F06-B140-2D703B4E18DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api-project-testes", "api-project-testes\api-project-testes.csproj", "{13FAB609-C953-41C2-A11E-5CA52C3E47A0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "api_project_testes", "api-project-testes\api_project_testes.csproj", "{13FAB609-C953-41C2-A11E-5CA52C3E47A0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
