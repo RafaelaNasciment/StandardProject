@@ -8,8 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="CosmosClient\" />
-    <Folder Include="Configuration\" />
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.39.1" />
   </ItemGroup>
 
 </Project>

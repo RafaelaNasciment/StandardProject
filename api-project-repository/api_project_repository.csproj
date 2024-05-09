@@ -9,7 +9,15 @@
 
   <ItemGroup>
     <Folder Include="Interfaces\" />
-    <Folder Include="Repository\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Azure.Cosmos" Version="3.39.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\api-project-domain\api_project_domain.csproj" />
+    <ProjectReference Include="..\api-project-infrastructure\api_project_infrastructure.csproj" />
   </ItemGroup>
 
 </Project>
