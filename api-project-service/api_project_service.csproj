@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Services\ProductService\" />
+    <ProjectReference Include="..\api-project-domain\api_project_domain.csproj" />
   </ItemGroup>
 
 </Project>

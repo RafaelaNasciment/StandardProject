@@ -1,3 +1,4 @@
+using api_project_service.Services.ProductService;
 using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,6 +16,8 @@ builder.Services.AddSwaggerGen(setup =>
     setup.SwaggerDoc("v1", new OpenApiInfo { Title = $"Standard Project - API (ambiente: {Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT")})", Version = "v1" });
 });
 
+InjecaoDependencia();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -31,3 +34,14 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+void InjecaoDependencia()
+{
+    #region [Injeção de dependência]
+    //Services
+    builder.Services.AddSingleton<CreateProductService, CreateProductService>();
+
+
+    //Repositorio
+    #endregion
+}
